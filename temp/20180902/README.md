@@ -4,11 +4,11 @@
 * 실습은 jupyter notebook 이용
 
 [1week]<br/>
-* 각 벡터는 “의미 공간”에서의 좌표값 역할을 합니다.<br/>
-* 대부분 머신러닝 알고리즘은 벡터 공간에 작동하도록 설계<br/>
-* 군집화 : 비슷한 데이터를 하나의 집합으로 그룹화 <br/>
-* Bag of words model : 문서 및 텍스트를 단어로 쪼개 한 가방 (Bag) 에 넣고 흔들어 섞은 뒤에 단어를 재정렬하는것과 비슷한 개념<br/>
-    - Bag of words model 에는 Euclidean 보다 Cosine 이 적절합니다<br/>
+* 각 벡터는 “의미 공간”에서의 좌표값 역할을 합니다.
+* 대부분 머신러닝 알고리즘은 벡터 공간에 작동하도록 설계
+* 군집화 : 비슷한 데이터를 하나의 집합으로 그룹화 
+* Bag of words model : 문서 및 텍스트를 단어로 쪼개 한 가방 (Bag) 에 넣고 흔들어 섞은 뒤에 단어를 재정렬하는것과 비슷한 개념
+    - Bag of words model 에는 Euclidean 보다 Cosine 이 적절합니다
 * Cosine distance : 참고 URL : http://euriion.com/?p=548<br/>
 * Classification : 데이터 간의 경계<br/>
 * Keyword extraction(키워드 추출) : 
@@ -33,7 +33,7 @@
     - Term weighting(단어의 중요도)
     - TFIDF, BM25 등...
 #### Text data processing
-* 품사 판별 / 형태소분석은 KoNLPy 이용할 예정
+* 품사 판별 / 형태소분석은 KoNLPy 이용할 예정(http://konlpy.org/ko/v0.4.4/)
 * 형태소 분석기 마다 태그의 수준과 표기법이 다름
 * Out of vocabulary(사전 이외에 단어는 어떻게 할건지?)
 * 단어 사전 구축 필요
